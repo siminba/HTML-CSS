@@ -1,1 +1,35 @@
+h1 {
+    text-align: center;
+}
+.container{
+    display: flex;
+    margin-top: 10px;
+   
+}
+p {
+    height: 50%;
+    width: 50%;
+    border: 1px solid black;
+    margin: 20px;
+    box-sizing: border-box;
+    padding-left: 3px;
+    background-color: gray;
+    
+    
+}
 
+span{
+   font-weight: bold;
+   margin-top: 0;
+   float: right;
+   background-color: brown;
+   border: 2px solid black;
+   padding: 2px;
+}
+
+@media screen and (max-width: 768){
+    h1 {
+       color: blue;
+      
+    }
+}
